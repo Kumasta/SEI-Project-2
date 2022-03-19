@@ -74,7 +74,7 @@ The nav bar is fairly simple with 3 main buttons The brand/home page link, the T
 
 ### TV shows page
 
-All TV shows are pulled from a GET request from the API and map in a container in our card component, the card will show basic information including the name, image and average score of the TV show.
+All TV shows are pulled from a GET request from the API and map in a container in our card component, the card will show basic information including the name, image and average score of the TV show as well as a favourite button.
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134121-38ebb398-3c49-4098-9ec2-6faa581b578f.png">
 
 ### Search bar
@@ -83,23 +83,47 @@ The search bar allows for real time filtering of TV shows by text and genres sel
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134308-50bb2345-b03b-4be6-a3ef-d1b9a212269c.png">
 
+### Favourites page
+
+On click, the favourite button will change background from a normal emoji face to a heart one or vice versa. This will trigger a function that will check an array of Ids saved in local storage. If the id of that TV show is not in the array, it will be added and local storage is updated, on second click, the array is checked to see if that id is present and will find the index of it and remove it. The favourite state of the card is checked on page load to see if the icon needs to be altered or not. Any show that is favorited will then be seen on the favourites page that can be accessed from the nav bar like below: 
+ 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134175-ed580fc3-baac-44a9-a234-13d310dfab09.png">
+
+### Side card
+
+On the TV shows page or the favourites page, clicking on a card will display more information about the show on the side card such as the genres, network and show status. at the bottom is a link that will take you to the show single showcase page for even more information. In practice, this system was not very intuitive and visually unappealing as you would need to click on two places, the card and then the side card, to get to the showcase page. 
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134212-b54bbd23-a39f-4618-8c6b-b5447b030a5c.png">
 
+### Showcase
+
+Here on the showcase page you will see the most information about any show by using the id to make another GET request from another API endpoint. along with a higher quality image of what you see on the cards and front page. 
+
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134226-79fd3fc6-ee83-4d02-a9a3-dec4dca36d94.png">
+
+### Cast list
+
+Using the third and last API endpoint, we get the cast details and map them through another card component at the bottom of the page. 
+
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134251-aa574052-d821-4a78-bcc7-0081aa7ae09f.png">
 
 ## Challenges 
+- As this was one of our first times using local storage, we had bugs when creating the favourite system. It was a good experience to go through as we better understand how to use local storage. 
+- The site was not built with mobile in mind and some of the components such as the side card are not displayed well in mobile view.
+- Time, this was only a 2 day project and we felt rushed for time and some things we wanted to implement were not done.
+- Styling bootstrap components was a challenge as they would be hard to target, we would learn that using !important would be a good way to override native styling properties of them.
+- VS code live share is good but not very responsive for us as the person joining a session at times. When one person would code in an error, the others would have the error too on the page and not be able to see their webpage until the bug was fixed. 
 
   
 ## Future Improvements 
 - Make it mobile responsive.
-- Remove or alter side card to be more praticle and user freindly.
-- Add dyanimic changes to the home screen random show bannar with transition animations. So a show image will fade a one at a time and a new one will pop fade in. 
-- Intergrate a back-end API server to allow users to create accounts and log in to save there favorites to there account and not just the broswer/machine they are using.  
-- Add fuzziness to the serach bar.   
+- Remove or alter side cards to be more practical and user friendly.
+- Add dynamic changes to the home screen random show banner with transition animations. So a show image will fade one at a time and a new one will pop fade in. 
+- Integrate a back-end API server to allow users to create accounts and log in to save there favourites to there account and not just the browser/machine they are using.  
+- Add fullness to the search bar.   
+- Make the site mobile friendly. 
+
 ## Main Takeaways 
 
   
