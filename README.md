@@ -125,6 +125,9 @@ Using the third and last API endpoint, we get the cast details and map them thro
 - Make the site mobile friendly. 
 
 ## Main Takeaways 
+- Using a git repo and push and pull branches would be more efficient to avoid lag with Live share.
+- Design with mobile in mind from the start.
+- Plan out the components of a project and divide them up and allocate to each person to avoid conflicts or wasted time.
 
   
 ## Contact
