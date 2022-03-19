@@ -69,10 +69,17 @@ We then created our wireframe of the site. We knew we wanted to try a side card 
 
 ### Nav bar and home page
 
-The nave bar is fairly simple with 3 main buttons The brand/home page link, the TV show list and favourites pages can all be accessed from here. All the button have a hover a effect of inversive the text and border colour. The home page is made up of a random array of TV show images with a check to make sure each one is unique. On page load it will display a random number of TV show images displaying them in a container that spans the screen. A div in the middle has a black transparent background to enable users to see images behind it but also ease of readability of the site name text. A button below acts as the same link as the TV shows button in the nav bar.    
+The nav bar is fairly simple with 3 main buttons The brand/home page link, the TV show list and favourites pages can all be accessed from here. All the button have a hover a effect of inversive the text and border colour. The home page is made up of a random array of TV show images with a check to make sure each one is unique. On page load it will display a random number of TV show images displaying them in a container that spans the screen. A div in the middle has a black transparent background to enable users to see images behind it but also ease of readability of the site name text. A button below acts as the same link as the TV shows button in the nav bar.    
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134134-1cf7e5e9-5d3e-43d6-aec4-9de0c5ca97bf.png">
 
+### TV shows page
+
+All TV shows are pulled from a GET request from the API and map in a container in our card component, the card will show basic information including the name, image and average score of the TV show.
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134121-38ebb398-3c49-4098-9ec2-6faa581b578f.png">
+
+### Search bar
+
+The search bar allows for real time filtering of TV shows by text and genres selected from the drop down box. The search/filter uses RegEx to convert search text and results into lowercase and remove all spaces to allow for slightly more lenient search results. 
 
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134308-50bb2345-b03b-4be6-a3ef-d1b9a212269c.png">
 
@@ -92,7 +99,7 @@ The nave bar is fairly simple with 3 main buttons The brand/home page link, the 
 - Remove or alter side card to be more praticle and user freindly.
 - Add dyanimic changes to the home screen random show bannar with transition animations. So a show image will fade a one at a time and a new one will pop fade in. 
 - Intergrate a back-end API server to allow users to create accounts and log in to save there favorites to there account and not just the broswer/machine they are using.  
-  
+- Add fuzziness to the serach bar.   
 ## Main Takeaways 
 
   
