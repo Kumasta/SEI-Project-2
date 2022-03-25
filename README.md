@@ -140,5 +140,5 @@ Game Link: [https://github.com/your_username/repo_name](https://kumasta.github.i
 
 Git repo: https://github.com/Kumasta/Virus-Buster
 
-<p align="right">(<a href="#general-assembly-project-1-web-browser-game">back to top</a>)</p>
+<p align="right">(<a href="#general-assembly-project-2-react-based-website-that-comsumes-a-public-api">back to top</a>)</p>
 
