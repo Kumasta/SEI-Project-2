@@ -1,7 +1,7 @@
 ### General Assembly Project-2: React based website that comsumes a public API
 # ITVDB (Internet TV Database)
-Contributors: [Mayur Kumar](https://github.com/Kumasta), [Bashar Othman](https://github.com/greenplastic90)
-A TV show database where you can discover and favorite series. 
+A TV show database where you can discover and favorite series.  
+Contributors: [Mayur Kumar](https://github.com/Kumasta), [Bashar Othman](https://github.com/greenplastic90) 
 ### Project Link : https://itvdb-sei61.netlify.app/
 
 <img width="1680" alt="image" src="https://user-images.githubusercontent.com/94964514/159133803-8275bc53-643d-400d-8d7a-1b409b6a828d.png">
