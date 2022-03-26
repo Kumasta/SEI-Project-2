@@ -136,9 +136,9 @@ Social - https://www.linkedin.com/in/mayur-kumar-dev/
 
 email - mayurkumardev@googlemail.com
 
-Game Link: [https://github.com/your_username/repo_name](https://kumasta.github.io/Virus-Buster/)
+Project Link: https://itvdb-sei61.netlify.app/
 
-Git repo: https://github.com/Kumasta/Virus-Buster
+Git Hub: https://github.com/Kumasta
 
 <p align="right">(<a href="#general-assembly-project-2-react-based-website-that-comsumes-a-public-api">back to top</a>)</p>
 
