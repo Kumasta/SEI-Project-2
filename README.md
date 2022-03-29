@@ -1,6 +1,6 @@
-### General Assembly Project-2: React based website that comsumes a public API
+### General Assembly Project-2: React based website that consumes a public API
 # ITVDB (Internet TV Database)
-A TV show database where you can discover and favorite series.  
+A TV show database where you can discover and favourite series.  
 Contributors: [Mayur Kumar](https://github.com/Kumasta), [Bashar Othman](https://github.com/greenplastic90) 
 ### Project Link : https://itvdb-sei61.netlify.app/
 
@@ -18,7 +18,7 @@ Contributors: [Mayur Kumar](https://github.com/Kumasta), [Bashar Othman](https:/
     - [Wire Frame](#wire-frame)
 - [Section Breakdown](#section-breakdown)
 - [Challenges](#challenges)
-- [Future Improvments](#future-improvements)
+- [Future Improvements](#future-improvements)
 - [Main Takeaways](#main-takeaways)
 - [Contact](#contact)
 
@@ -70,7 +70,8 @@ We then created our wireframe of the site. We knew we wanted to try a side card 
 
 ### Nav bar and home page
 
-The nav bar is fairly simple with 3 main buttons The brand/home page link, the TV show list and favourites pages can all be accessed from here. All the button have a hover a effect of inversive the text and border colour. The home page is made up of a random array of TV show images with a check to make sure each one is unique. On page load it will display a random number of TV show images displaying them in a container that spans the screen. A div in the middle has a black transparent background to enable users to see images behind it but also ease of readability of the site name text. A button below acts as the same link as the TV shows button in the nav bar.    
+The nav bar is fairly simple with 3 main buttons The brand/home page link, the TV show list and favourites pages can all be accessed from here. All the buttons have a hover effect of inversing the text and border colour. The home page is made up of a random array of TV show images with a check to make sure each one is unique. On page load it will display a random number of TV show images displaying them in a container that spans the screen. A div in the middle has a black transparent background to enable users to see images behind it but also ease of readability of the site name text. A button below acts as the same link as the TV shows button in the nav bar.     
+
 <img width="80%" alt="image" src="https://user-images.githubusercontent.com/94964514/159134134-1cf7e5e9-5d3e-43d6-aec4-9de0c5ca97bf.png">
 
 ### TV shows page
@@ -121,7 +122,7 @@ Using the third and last API endpoint, we get the cast details and map them thro
 - Make it mobile responsive.
 - Remove or alter side cards to be more practical and user friendly.
 - Add dynamic changes to the home screen random show banner with transition animations. So a show image will fade one at a time and a new one will pop fade in. 
-- Integrate a back-end API server to allow users to create accounts and log in to save there favourites to there account and not just the browser/machine they are using.  
+- Integrate a back-end API server to allow users to create accounts and log in to save their favourites to their account and not just the browser/machine they are using.  
 - Add fullness to the search bar.   
 - Make the site mobile friendly. 
 
